@@ -142,7 +142,7 @@ body{
     color: #fff;
 
 }
-.box form .inputBox input[type="submit"]{
+.box form input[type="submit"]{
 border: none;
 outline: none;
 padding: 9px 25px;
@@ -153,4 +153,7 @@ border-radius: 4px;
 font-weight: 600;
 width: 100px;
 margin-top: 10px;
+}
+.box form input[type="submit"]:active{
+    opacity: 0.8;
 }
